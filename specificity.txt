@@ -1,0 +1,17 @@
+Paragraph A:
+Receives all properties from the p (element) selector: gray colo, 1rem size, etc.
+
+Paragraph B:
+Inherits spacing/font from p but color (steel blue), font-size, and font-family are overridden by .info. 
+It also gains a background and border.
+
+Paragraph C:
+Inherits spacing from p but color (dark red), font-size , and font-family are overridden by #warning. 
+It also gains the dashed border and uppercase styling.
+
+Paragraph D:
+This paragraph is targeted by all four rules. Final styles are a mix, but the most specific rules dictate the appearance
+
+
+Style.cc:
+Because the <style> tag appears after the <link> tag in the <head>, the internal color rule wins but the font style and padding remain the same

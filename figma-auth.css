@@ -1,0 +1,133 @@
+
+
+/* Group 1 */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 720px;
+height: 1024px;
+
+/* Brown secondary */
+background: #A66A4A;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+
+position: absolute;
+width: 380px;
+height: 125px;
+left: 180px;
+top: 256px;
+
+/* Brown primary */
+background: #6B3E26;
+border-radius: 8px;
+
+
+/* Sign up */
+
+margin: 0 auto;
+width: 265px;
+height: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+
+position: absolute;
+width: 380px;
+height: 125px;
+left: 180px;
+top: 512px;
+
+/* Brown primary */
+background: #6B3E26;
+border-radius: 8px;
+
+
+/* Log in */
+
+width: 212px;
+height: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 720px;
+height: 1024px;
+
+
+
+/* Photo */
+
+position: absolute;
+width: 720px;
+height: 1024px;
+
+background: url(coffee.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));

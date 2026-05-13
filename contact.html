@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dexter's Brew Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu-data.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="card.html">Business Card</a></li>
+        <li><a href="overview.html">Overview</a></li>
+        <li><a href="chatbot.html">Chatbot</a></li>
+    </ul>
+</nav>
+
+<main id="main-content">
+
+    <section>
+        <h2>Feedback Form</h2>
+
+        <form>
+            <fieldset>
+                <legend>Send Us a Message</legend>
+
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic">
+                        <option value="feedback">Feedback</option>
+                        <option value="reservation">Reservation</option>
+                        <option value="event">Event Information</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Subscribe to our newsletter
+                    </label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+            
+        
+    </section>
+    <footer>
+        <p>&copy; 2026 Dexter's Brew Café</p>
+    </footer>
+</main>
+</html>

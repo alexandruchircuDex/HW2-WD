@@ -1,0 +1,57 @@
+/* Mobile-First Layout (Default) */
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Flexbox for the expertise tags */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.flex-container span {
+    background: #6b3e26;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Grid for the cards */
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column cards on mobile */
+    gap: 15px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* One card styled differently */
+.featured-card {
+    background: #d7ccc8;
+    border: 2px solid #6b3e26;
+}
+
+/* Desktop Enhancement (Media Query) */
+@media (min-width: 768px) {
+    .overview-grid {
+        grid-template-columns: 2fr; /* Two columns for main sections */
+    }
+
+    .cards-section {
+        grid-column: span 2; /* Make the cards section take full width */
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columns for cards on desktop */
+    }
+}

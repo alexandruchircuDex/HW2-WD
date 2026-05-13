@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Assistant Chatbot | Dexter's Brew Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css"> 
+</head>
+<body>
+    <header>
+        <h1>Brew Assistant</h1>
+        <p>Ask us about our coffee and treats!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu-data.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="card.html">Business Card</a></li>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="chatbot.html">Chatbot</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <div id="chat-window">
+            <div id="chat-messages">
+                <div class="bot-msg">
+                    Hello! Try asking about "coffee", "dessert", or "discount".
+                </div>
+            </div>
+            
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Type a keyword..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
